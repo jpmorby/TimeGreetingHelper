@@ -1,0 +1,28 @@
+{
+    "name": "jpmorby/time-greeting-helper",
+    "description": "Simple function to greet based on the time of day",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.7"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "jpmorby\\TimeGreetingHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jon Morby",
+            "email": "jon@redmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
