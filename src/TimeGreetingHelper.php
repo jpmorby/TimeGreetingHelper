@@ -1,6 +1,7 @@
 <?php
 
-namespace jpmorby\TimeGreetingHelper;
+namespace jpmorby;
+require __DIR__ . '/../vendor/autoload.php';
 
 /**
  * Summary of TimeGreetingHelper

@@ -11,7 +11,12 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "jpmorby\\TimeGreetingHelper\\": "src/"
+            "jpmorby\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jpmorby\\Tests\\": "tests/"
         }
     },
     "authors": [
