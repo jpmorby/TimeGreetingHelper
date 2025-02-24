@@ -7,6 +7,7 @@ namespace jpmorby;
  * @author Jon Morby
  * @copyright (c) 2025
  */
+
 class TimeGreetingHelper
 {
     public static function getGreeting()
